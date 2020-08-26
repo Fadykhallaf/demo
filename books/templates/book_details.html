@@ -4,7 +4,7 @@
     {% if book.cover %}
         <img src="{{ book.cover.url }}">
     {% endif %}
-      <h4>Book title: {{ book.title }}</h4>
+      <h4>Book: {{ book.title }}</h4>
       <h5>Book Author: {{ book.author }}</h5>
       <p>Book description: {{ book.description }}</p>
 {% endblock %}
